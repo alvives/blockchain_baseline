@@ -34,3 +34,7 @@ create new branch "alvives" --> implement changes (commits) --> push
     - Pull the latest changes from GitHub main      >> git pull origin main
     - Merge your branch into main                   >> git merge feature-blockchain
     - Push the updated main branch to GitHub        >> git push origin main
+
+Delete old branches:
+1) Checkout and >> git branch -d alvives            (locally)
+2) >> git push origin --delete alvives              (repository)
