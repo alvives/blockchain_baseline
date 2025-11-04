@@ -9,6 +9,7 @@ How to use a virtual environment:
 1)  Creation    >> python -m venv venv  
 2)  Activation  >> .\venv\Scripts\Activate    
     #Powershell: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+3)  Turn off    >> deactivate
 
 Don't upload it to Github, use the requirements.txt:
 1)  Creation    >> pip freeze > requirements.txt
@@ -17,3 +18,8 @@ Don't upload it to Github, use the requirements.txt:
 
 Run the Code:
 1)  >> python main.py
+
+Name & Email Setting:
+1)  Name        >> git config --global user.name "Alonso García"
+2)  Email       >> git config --global user.email "alonso.dev@gmail.com"
+3)  Check-in    >> git config --global --list
