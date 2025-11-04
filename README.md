@@ -25,3 +25,12 @@ Name & Email Setting:
 3)  Check-in    >> git config --global --list
 
 create new branch "alvives" --> implement changes (commits) --> push 
+
+2 ways to update the origin/main:
+1) From github "Compare & pull request"
+2) From terminal:
+    - Make sure everything is up to date            >> git fetch origin
+    - Switch to the main branch                     >> git checkout main
+    - Pull the latest changes from GitHub main      >> git pull origin main
+    - Merge your branch into main                   >> git merge feature-blockchain
+    - Push the updated main branch to GitHub        >> git push origin main
