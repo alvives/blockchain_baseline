@@ -23,3 +23,5 @@ Name & Email Setting:
 1)  Name        >> git config --global user.name "Alonso García"
 2)  Email       >> git config --global user.email "alonso.dev@gmail.com"
 3)  Check-in    >> git config --global --list
+
+create new branch "alvives" --> implement changes (commits) --> push 
